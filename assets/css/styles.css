@@ -19,12 +19,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* Reduced vertical padding for a thinner header */
-  padding: 0.5rem 2rem;
+  /* Reduced vertical padding for a slimmer header */
+  padding: 0.25rem 2rem;
   background-color: var(--color-charcoal);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+  /* Removed sticky positioning so header scrolls with page */
+  position: static;
 }
 
 /* Logo banner: cap height and adjust vertical alignment */
